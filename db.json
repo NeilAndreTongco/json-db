@@ -1,0 +1,16 @@
+{
+	"employees": [
+		{
+			"id": "1",
+			"name": "Al Usman",
+			"gender": "Male",
+			"description": ""
+		},
+		{
+			"id": "1",
+			"name": "Rod Bocobo",
+			"gender": "Male",
+			"description": ""
+		}
+	]
+}
