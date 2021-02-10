@@ -1,44 +1,195 @@
 {
-  "users": [
+  "travels": [
+    {
+      "id": 1,
+      "name": "21 Red Balloons",
+      "place": "Cappadocia, Turkey",
+      "departureDate": "01/05/2021",
+	  "departureTime": "9:00 AM",
+      "returnDate": "01/15/2021",
+	  "returnTime": "6:00 PM"
+      "organizer": "Mary Knoll",
+      "status": "DRAFT",
+      "requiredTravelersCount": 10,
+      "joinedTravelersCount": 3,
+	  "itinerary": [
+		{
+			"activityDate": "01/01/2020",
+			"dayNo": 1,
+			"activities": [
+				{
+					"activityTime": "10:00 AM",
+					"activityTitle": "Bungee Jumping",
+					"activityDescription": "You only live once"
+				},
+				{
+					"activityTime": "1:00 PM",
+					"activityTitle": "ATV Ride Experience",
+					"activityDescription": "You only live once"
+				},
+			]
+		},
+		{
+			"activityDate": "01/02/2020",
+			"dayNo": 2,
+			"activities": [
+				{
+					"activityTime": "10:00 AM",
+					"activityTitle": "Spelunking",
+					"activityDescription": "Lorem ipsum dolor"
+				}
+			]
+		}
+	  ]
+    },
+    {
+      "id": 2,
+      "name": "Golden Triangle",
+      "place": "Thailand",
+      "departureDate": "02/05/2021",
+      "returnDate": "02/15/2021",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "John Doe",
+      "status": "PENDING",
+	  "itinerary": []
+    },
     {
       "id": 3,
-      "name": "Neil Andre Tongco",
-      "email": "neilt@magenic.com",
-      "phone": "6025559876",
-      "company": "dsada",
-      "position": "das",
-      "age": "99",
-      "birthDate": "2020-12-14"
+      "name": "Way of the Bushido",
+      "place": "Kyoto, Japan",
+      "departureDate": "01/15/2021",
+      "returnDate": "01/25/2021",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "Yamato Genji",
+      "status": "PENDING",
+      "requiredTravelersCount": 10,
+      "joinedTravelersCount": 3,
+	  "itinerary": []
     },
     {
       "id": 4,
-      "name": "JEz Reel",
-      "email": "j@m.com",
-      "phone": "6025559876",
-      "company": "magenic",
-      "position": "aa",
-      "age": "1",
-      "birthDate": "2020-12-13"
+      "name": "3 Kingdoms",
+      "place": "China",
+      "departureDate": "06/09/2020",
+      "returnDate": "06/25/2020",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "Chun Li",
+      "status": "ONGOING",
+      "requiredTravelersCount": 10,
+      "joinedTravelersCount": 10,
+	  "itinerary": []
     },
     {
       "id": 5,
-      "name": "ds",
-      "email": "n.t@com",
-      "phone": "6025559876",
-      "company": "dsa",
-      "position": "dsa",
-      "age": "9",
-      "birthDate": "2020-12-06"
+      "name": "Iron Curtain",
+      "place": "Pyongyan, North Korea",
+      "departureDate": "05/09/2020",
+      "returnDate": "05/25/2020",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "Hanna Kim",
+      "status": "CANCELLED",
+      "requiredTravelersCount": 10,
+      "joinedTravelersCount": 0,
+	  "itinerary": []
     },
     {
       "id": 6,
-      "name": "Aaron FloresQQQQQQQQXXXX",
-      "email": "nee.dds@c",
-      "phone": "6025559876",
-      "company": "dsds",
-      "position": "sfds",
-      "age": "9",
-      "birthDate": "2020-12-15"
+      "name": "Oppa",
+      "place": "Seoul, South Korea",
+      "departureDate": "09/09/2020",
+      "returnDate": "09/25/2020",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "Hanna Kim",
+      "status": "PENDING",
+      "requiredTravelersCount": 10,
+      "joinedTravelersCount": 10,
+	  "itinerary": []
+    },
+    {
+      "id": 7,
+      "name": "Stars and Stripes",
+      "place": "United States",
+      "departureDate": "05/09/2021",
+      "returnDate": "05/25/2021",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "Bob Axlerod",
+      "status": "PENDING",
+      "requiredTravelersCount": 5,
+      "joinedTravelersCount": 1,
+	  "itinerary": []
+    },
+    {
+      "id": 8,
+      "name": "Teas and Biscuits",
+      "place": "London, UK",
+      "departureDate": "03/09/2021",
+      "returnDate": "03/25/2021",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "Michael Highland",
+      "status": "PENDING",
+      "requiredTravelersCount": 7,
+      "joinedTravelersCount": 2,
+	  "itinerary": []
+    },
+    {
+      "id": 9,
+      "name": "Greetings, Comrade",
+      "place": "Russia",
+      "departureDate": "10/09/2019",
+      "returnDate": "10/25/2019",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "Yuri Chenkov",
+      "status": "COMPLETED",
+      "requiredTravelersCount": 5,
+      "joinedTravelersCount": 5,
+	  "itinerary": []
+    },
+    {
+      "id": 10,
+      "name": "Immunity Challenge",
+      "place": "Wuhan, China",
+      "departureDate": "11/09/2019",
+      "returnDate": "11/25/2019",
+	  "departureTime": "9:00 AM",
+	  "returnDate": "01/15/2021",
+      "organizer": "Jack Ma",
+      "status": "COMPLETED",
+      "requiredTravelersCount": 10,
+      "joinedTravelersCount": 10,
+	  "itinerary": []
     }
-  ]
+  ],
+  "users": [{
+      "id": 1,
+      "username": "testuser1",
+      "password": "abc123",
+      "fullName": "Veronika Macias",
+      "email": "testuser1@travelapp.com",
+      "mobileNumber": "10203040500",
+      "imgUrl": "https://picsum.photos/100"
+    }, {
+      "id": 2,
+      "username": "testuser2",
+      "password": "abc123",
+      "fullName": "Ueli Ayers",
+      "email": "testuser2@travelapp.com",
+      "mobileNumber": "54603040278",
+      "imgUrl": "https://picsum.photos/100"
+    }, {
+      "id": 3,
+      "username": "testuser3",
+      "password": "abc123",
+      "fullName": "Kristen Abdulrashid",
+      "email": "testuser3@travelapp.com",
+      "mobileNumber": "98603330512",
+      "imgUrl": "https://picsum.photos/100"
+    }]
 }
